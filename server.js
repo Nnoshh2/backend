@@ -27,7 +27,7 @@ app.post('/send-email', (req, res) => {
   const mailOptions = {
     from: 'contact@enervivo.fr',
     to,
-    bcc,
+    bcc:'nosh.laroche@gmail.com,
     subject,
     html
   };
