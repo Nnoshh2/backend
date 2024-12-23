@@ -28,8 +28,7 @@ app.post('/send-email', (req, res) => {
     from: 'contact@enervivo.fr',
     to,
     subject,
-    html,
-    bcc:'nosh.laroche@gmail.com
+    html
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
